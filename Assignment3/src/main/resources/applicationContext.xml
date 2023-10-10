@@ -1,0 +1,9 @@
+<beans>
+    <bean id="a" class="MyClass.ClassA">
+        <property name="ClassB" ref="b"/>
+    </bean>
+    <bean id="b" class="MyClass.ClassB" scope="prototype" init-method="init">
+        <property name="ClassC" ref="c"/>
+    </bean>
+    <bean id="c" class="MyClass.ClassC" destroy-method="destroy"/>
+</beans>
