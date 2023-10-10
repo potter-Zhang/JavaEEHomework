@@ -1,0 +1,3 @@
+<beans>
+    <bean id="b" class="TestClassB" init-method="init"/>
+</beans>

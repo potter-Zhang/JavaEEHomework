@@ -112,8 +112,13 @@ public class MyApplicationContext {
                 throw new MyException(MyException.ErrorCode.INVALID_ID, "id not found");
             }
             BeanDefinition bean = beanDefinitions.get(id);
+           Object beanObj = bean.beanClass.newInstance();
+           // init callback
+           if (bean.initMethod != null) {
+               Method initMethod = bean.beanClass.getMethod(bean.initMethod);
+               initMethod.invoke(beanObj);
+           }
             if (bean.ref == null) {
-                Object beanObj = bean.beanClass.newInstance();
                 if (bean.scope.equals("singleton"))
                     beans.put(id, beanObj);
                 return beanObj;
@@ -123,12 +128,6 @@ public class MyApplicationContext {
             }
             Object refBeanobj = getBean(bean.ref);
 
-            Object beanObj = bean.beanClass.newInstance();
-           // init callback
-           if (bean.initMethod != null) {
-                Method initMethod = bean.beanClass.getMethod(bean.initMethod);
-                initMethod.invoke(beanObj);
-           }
             Method setMethod = bean.beanClass.getMethod(bean.setMethod, beanDefinitions.get(bean.ref).beanClass);
             setMethod.invoke(beanObj, refBeanobj);
             if (bean.scope.equals("singleton"))

@@ -1,0 +1,6 @@
+<beans>
+    <bean id="a" class="TestClassA">
+        <property name="TestClassB" ref="b"/>
+    </bean>
+    <bean id="b" class="TestClassB" scope="prototype"/>
+</beans>
