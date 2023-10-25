@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="da1b70ca-b582-4b47-82ca-4b659b972b17" name="Changes" comment="finally solve bean problem">
+      <change afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/config/MpConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/controller/SupplierController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/dao/ProductDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/dao/SupplierDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/domain/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/domain/Supplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/exception/ProductManagementException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/mapper/xml/ProductMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/mapper/xml/SupplierMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/service/ISupplierService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/service/impl/SupplierServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductManagement/src/test/java/whu/edu/ProductManagement/ProductTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2XFKfAIPnNfO8GmT6ROiGxKCyTn" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/Harry/Documents/Tencent Files/2976857809/FileRecv/assignment-5",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Harry\IdeaProjects\Assignment5\ProductManagement\src\main\java\whu\edu\ProductManagement" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="whu.edu.ProductManagement.service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ProductTest">
+    <configuration name="ProductTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assignment-6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="whu.edu.ProductManagement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="whu.edu.ProductManagement" />
+      <option name="MAIN_CLASS_NAME" value="whu.edu.ProductManagement.ProductTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductTest.addProductTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assignment-6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="whu.edu.ProductManagement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="whu.edu.ProductManagement" />
+      <option name="MAIN_CLASS_NAME" value="whu.edu.ProductManagement.ProductTest" />
+      <option name="METHOD_NAME" value="addProductTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductTest.contextLoad" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProductManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="whu.edu.ProductManagement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="whu.edu.ProductManagement" />
+      <option name="MAIN_CLASS_NAME" value="whu.edu.ProductManagement.ProductTest" />
+      <option name="METHOD_NAME" value="contextLoad" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductTest.contextLoadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProductManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="whu.edu.ProductManagement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="whu.edu.ProductManagement" />
+      <option name="MAIN_CLASS_NAME" value="whu.edu.ProductManagement.ProductTest" />
+      <option name="METHOD_NAME" value="contextLoadTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductTest.getProductTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assignment-6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="whu.edu.ProductManagement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="whu.edu.ProductManagement" />
+      <option name="MAIN_CLASS_NAME" value="whu.edu.ProductManagement.ProductTest" />
+      <option name="METHOD_NAME" value="getProductTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ProductTest" />
+        <item itemvalue="JUnit.ProductTest.getProductTest" />
+        <item itemvalue="JUnit.ProductTest.addProductTest" />
+        <item itemvalue="JUnit.ProductTest.contextLoadTest" />
+        <item itemvalue="JUnit.ProductTest.contextLoad" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da1b70ca-b582-4b47-82ca-4b659b972b17" name="Changes" comment="" />
+      <created>1698219488788</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698219488788</updated>
+    </task>
+    <task id="LOCAL-00001" summary="finally solve bean problem">
+      <option name="closed" value="true" />
+      <created>1698232166455</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698232166455</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="finally solve bean problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="finally solve bean problem" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/CodeGenerator.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/ProductManagement/src/test/java/whu/edu/ProductManagement/service/ProductManagementApplicationTests.java</url>
+          <line>14</line>
+          <properties class="whu.edu.ProductManagement.ProductManagementApplicationTests">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/ProductManagement/src/test/java/whu/edu/ProductManagement/service/ProductManagementApplicationTests.java</url>
+          <line>14</line>
+          <properties class="whu.edu.ProductManagement.service.ProductManagementApplicationTests">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.TypeNotPresentException" package="java.lang" />
+          <option name="timeStamp" value="5" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
