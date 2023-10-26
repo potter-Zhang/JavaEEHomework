@@ -6,10 +6,15 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.event.annotation.BeforeTestClass;
 import org.springframework.transaction.annotation.Transactional;
+import whu.edu.ProductManagement.dao.ProductDao;
 import whu.edu.ProductManagement.domain.Product;
+import whu.edu.ProductManagement.domain.Supplier;
 import whu.edu.ProductManagement.exception.ProductManagementException;
 import whu.edu.ProductManagement.service.IProductService;
+import whu.edu.ProductManagement.service.ISupplierService;
 import whu.edu.ProductManagement.service.impl.ProductServiceImpl;
+
+import java.util.List;
 
 
 @SpringBootTest
@@ -17,7 +22,11 @@ import whu.edu.ProductManagement.service.impl.ProductServiceImpl;
 public class ProductTest {
 
     @Autowired
+    private ProductDao productDao;
+    @Autowired
     private IProductService productService;
+    @Autowired
+    private ISupplierService supplierService;
 
     @BeforeEach
     public void initProducts() throws ProductManagementException {
@@ -27,7 +36,13 @@ public class ProductTest {
         product.setPrice(1.1f);
         product.setSupplier("harry");
 
+        Supplier supplier = new Supplier();
+        supplier.setName("harry");
+        supplier.setTele(13510222977L);
+        supplier.setLocation("wuhan");
+
         productService.addProduct(product);
+        supplierService.addSupplier(supplier);
     }
 
     @Test
@@ -63,6 +78,16 @@ public class ProductTest {
 
         assert (productService.getProductById(100L).equals(newProduct));
     }
+
+    @Test
+    public void multiFormSelect() throws ProductManagementException {
+        List<Supplier> supplier = productDao.findSuppliersByProduct(100L);
+        assert (supplier.size() == 1);
+        assert (supplier.get(0).getName().equals("harry"));
+    }
+
+
+
 
 
 

@@ -50,10 +50,11 @@ public class ProductController {
     }
 
     @PutMapping("update")
-    public RequestEntity updateProduct(@RequestBody Product product) {
+    public ResponseEntity<Product> updateProduct(@RequestBody Product product) {
         try {
-            (productService.updateProduct(product));
-            return ResponseEntity.ok().build();
+
+            return ResponseEntity.ok(productService.updateProduct(product));
+
         } catch (ProductManagementException e) {
             return ResponseEntity.badRequest().build();
         }

@@ -5,21 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da1b70ca-b582-4b47-82ca-4b659b972b17" name="Changes" comment="finally solve bean problem">
-      <change afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/config/MpConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/controller/SupplierController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/dao/ProductDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/dao/SupplierDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/domain/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/domain/Supplier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/exception/ProductManagementException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/mapper/xml/ProductMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/mapper/xml/SupplierMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/service/IProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/service/ISupplierService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/service/impl/ProductServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/service/impl/SupplierServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductManagement/src/test/java/whu/edu/ProductManagement/ProductTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductManagement/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagement/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/ProductManagementApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/ProductManagementApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/dao/ProductDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductManagement/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagement/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductManagement/src/test/java/whu/edu/ProductManagement/ProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagement/src/test/java/whu/edu/ProductManagement/ProductTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +32,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2XFKfAIPnNfO8GmT6ROiGxKCyTn" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -57,10 +50,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/Harry/Documents/Tencent Files/2976857809/FileRecv/assignment-5",
-    "project.structure.last.edited": "Project",
+    "last_opened_file_path": "C:/Users/Harry/Desktop/Assignment4",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -103,22 +96,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductTest.contextLoad" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ProductManagement" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="whu.edu.ProductManagement.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="whu.edu.ProductManagement" />
-      <option name="MAIN_CLASS_NAME" value="whu.edu.ProductManagement.ProductTest" />
-      <option name="METHOD_NAME" value="contextLoad" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ProductTest.contextLoadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProductManagement" />
       <extension name="coverage">
@@ -151,13 +128,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProductTest.multiFormSelect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assignment-6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="whu.edu.ProductManagement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="whu.edu.ProductManagement" />
+      <option name="MAIN_CLASS_NAME" value="whu.edu.ProductManagement.ProductTest" />
+      <option name="METHOD_NAME" value="multiFormSelect" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ProductTest" />
+        <item itemvalue="JUnit.ProductTest.multiFormSelect" />
         <item itemvalue="JUnit.ProductTest.getProductTest" />
         <item itemvalue="JUnit.ProductTest.addProductTest" />
         <item itemvalue="JUnit.ProductTest.contextLoadTest" />
-        <item itemvalue="JUnit.ProductTest.contextLoad" />
       </list>
     </recent_temporary>
   </component>
