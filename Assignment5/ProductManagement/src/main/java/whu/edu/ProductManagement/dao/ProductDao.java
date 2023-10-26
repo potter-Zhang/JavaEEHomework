@@ -19,7 +19,7 @@ import java.util.List;
  */
 @Mapper
 public interface ProductDao extends BaseMapper<Product> {
-    @Select("select supplier.* from supplier " +
+    @Select("select supplier.* from supplier, product " +
             "where supplier.name = product.supplier and product.id = #{productId}")
     public List<Supplier> findSuppliersByProduct(@Param("productId")Long productId);
 }

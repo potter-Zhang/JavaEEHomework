@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da1b70ca-b582-4b47-82ca-4b659b972b17" name="Changes" comment="finally solve bean problem">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProductManagement/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagement/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/ProductManagementApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/ProductManagementApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/dao/ProductDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProductManagement/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagement/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductManagement/src/test/java/whu/edu/ProductManagement/ProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagement/src/test/java/whu/edu/ProductManagement/ProductTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,19 +38,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Harry/Desktop/Assignment4",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Harry/Download/Assignment5/Assignment5&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Harry\IdeaProjects\Assignment5\ProductManagement\src\main\java\whu\edu\ProductManagement" />
@@ -182,11 +177,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/CodeGenerator.java</url>
-          <line>57</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/ProductManagement/src/test/java/whu/edu/ProductManagement/service/ProductManagementApplicationTests.java</url>
           <line>14</line>
