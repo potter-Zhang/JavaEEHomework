@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="da1b70ca-b582-4b47-82ca-4b659b972b17" name="Changes" comment="finally solve bean problem">
+      <change afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/controller/AuthenticateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/controller/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/dao/DbUserDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/dao/RoleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/domain/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/mapper/xml/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/mapper/xml/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/security/JwtRequestFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/security/JwtTokenUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/service/IRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductManagement/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagement/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/CodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/CodeGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/controller/SupplierController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/controller/SupplierController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/dao/ProductDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/dao/SupplierDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/dao/SupplierDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/domain/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/domain/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/domain/Supplier.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/domain/Supplier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/service/IProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/service/IProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/service/ISupplierService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/service/ISupplierService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/service/impl/SupplierServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/service/impl/SupplierServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductManagement/src/test/java/whu/edu/ProductManagement/ProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagement/src/test/java/whu/edu/ProductManagement/ProductTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment7/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment7/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment7/src/main/java/demo/controller/WebController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment7/src/main/java/demo/dao/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment7/src/main/java/demo/dao/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment7/src/main/java/demo/impl/DbUserDetailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment7/src/main/java/demo/impl/DbUserDetailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment7/src/main/java/demo/security/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment7/src/main/java/demo/security/AuthenticationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment7/src/main/java/demo/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment7/src/main/java/demo/security/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment7/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment7/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment7/src/test/java/demo/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment7/src/test/java/demo/DemoApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2XFKfAIPnNfO8GmT6ROiGxKCyTn" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Harry/Download/demo (2)/Assignment5&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Harry\IdeaProjects\Assignment5\ProductManagement\src\main\java\whu\edu\ProductManagement" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="whu.edu.ProductManagement.service" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ProductTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assignment-6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="whu.edu.ProductManagement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="whu.edu.ProductManagement" />
+      <option name="MAIN_CLASS_NAME" value="whu.edu.ProductManagement.ProductTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductTest.addProductTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assignment-6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="whu.edu.ProductManagement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="whu.edu.ProductManagement" />
+      <option name="MAIN_CLASS_NAME" value="whu.edu.ProductManagement.ProductTest" />
+      <option name="METHOD_NAME" value="addProductTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductTest.contextLoadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProductManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="whu.edu.ProductManagement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="whu.edu.ProductManagement" />
+      <option name="MAIN_CLASS_NAME" value="whu.edu.ProductManagement.ProductTest" />
+      <option name="METHOD_NAME" value="contextLoadTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductTest.getProductTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assignment-6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="whu.edu.ProductManagement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="whu.edu.ProductManagement" />
+      <option name="MAIN_CLASS_NAME" value="whu.edu.ProductManagement.ProductTest" />
+      <option name="METHOD_NAME" value="getProductTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductTest.multiFormSelect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assignment-6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="whu.edu.ProductManagement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="whu.edu.ProductManagement" />
+      <option name="MAIN_CLASS_NAME" value="whu.edu.ProductManagement.ProductTest" />
+      <option name="METHOD_NAME" value="multiFormSelect" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ProductTest" />
+        <item itemvalue="JUnit.ProductTest.multiFormSelect" />
+        <item itemvalue="JUnit.ProductTest.getProductTest" />
+        <item itemvalue="JUnit.ProductTest.addProductTest" />
+        <item itemvalue="JUnit.ProductTest.contextLoadTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da1b70ca-b582-4b47-82ca-4b659b972b17" name="Changes" comment="" />
+      <created>1698219488788</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698219488788</updated>
+    </task>
+    <task id="LOCAL-00001" summary="finally solve bean problem">
+      <option name="closed" value="true" />
+      <created>1698232166455</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698232166455</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="finally solve bean problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="finally solve bean problem" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/ProductManagement/src/test/java/whu/edu/ProductManagement/service/ProductManagementApplicationTests.java</url>
+          <line>14</line>
+          <properties class="whu.edu.ProductManagement.ProductManagementApplicationTests">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/ProductManagement/src/test/java/whu/edu/ProductManagement/service/ProductManagementApplicationTests.java</url>
+          <line>14</line>
+          <properties class="whu.edu.ProductManagement.service.ProductManagementApplicationTests">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/controller/ProductController.java</url>
+          <line>34</line>
+          <properties class="whu.edu.ProductManagement.controller.ProductController" method="updateProduct">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.TypeNotPresentException" package="java.lang" />
+          <option name="timeStamp" value="5" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/controller/AuthenticateController.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/security/JwtRequestFilter.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/dao/DbUserDetailService.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ProductManagement/src/main/java/whu/edu/ProductManagement/controller/ProductController.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

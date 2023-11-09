@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/productdb?useSSL=false&autoReconnect=true&characterEncoding=utf8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+mybatis-plus:
+  configuration:
+    mapper-locations: classpath:whu/edu/ProductManagement/mapper/*.xml
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
